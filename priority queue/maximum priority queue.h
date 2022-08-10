@@ -23,7 +23,7 @@ class PriorityQueue {
         pq.push_back(element);
         int ci=pq.size()-1;
         int pi=(ci-1)/2;
-        
+
         while(pi>=0 && pq[pi]<pq[ci])
         {
            // swap
