@@ -14,7 +14,7 @@ void printIntersection(int input1[], int input2[], int size1, int size2)
         if(ans[input2[i]]>0)
         {
             cout<<input2[i]<<" "<<endl;
-            ans[input2[i]]--;
+            ans[input2[i]]--;//reduce its occurence by 1.
             
         }
     }
